@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_HelloUser
+Bundle-SymbolicName: org.serc.helloworld.client
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: OSGI_HelloUser
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Activator: org.serc.helloworld.client.HelloUser
+Import-Package: org.serc.helloworld;version="[1.0,2.0)",org.osgi.framework
